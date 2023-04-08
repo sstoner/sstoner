@@ -1,0 +1,11 @@
+name: Metrics
+on:
+  schedule: [{ cron: "7 * * * *" }]
+  workflow_dispatch:
+  push:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Metrics embed
+      uses: lowlighter/metrics@v3.32
