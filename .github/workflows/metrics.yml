@@ -10,4 +10,19 @@ jobs:
     - name: Metrics embed
       uses: lowlighter/metrics@v3.32
       with:
+          filename: github.svg
           token: ${{ secrets.METRICS_TOKEN }}
+    - name: social
+        id: social
+        uses: lowlighter/metrics@latest
+        with:
+          filename: social.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          config_order: leetcode
+
+          plugin_leetcode: yes
+          plugin_leetcode_limit_recent: 2
+          plugin_leetcode_limit_skills: 10
+          plugin_leetcode_sections: solved
+          plugin_leetcode_user: vanceli
