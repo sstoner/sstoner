@@ -19,8 +19,8 @@
                             <div class="category column">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="50" height="50" class="gauge all">
                                     <circle class="gauge-base" r="53" cx="60" cy="60"/>
-                                    <circle class="gauge-arc" transform="rotate(-90 60 60)" r="53" cx="60" cy="60" stroke-dasharray="22.54699779943414 329"/>
-                                    <text x="60" y="50" dominant-baseline="central">218</text>
+                                    <circle class="gauge-arc" transform="rotate(-90 60 60)" r="53" cx="60" cy="60" stroke-dasharray="22.753850990254637 329"/>
+                                    <text x="60" y="50" dominant-baseline="central">220</text>
                                     <text x="60" y="80" dominant-baseline="central" class="secondary">/3181</text>
                                 </svg>
                                 <span class="title">All</span>
@@ -28,8 +28,8 @@
                             <div class="category column">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="50" height="50" class="gauge easy">
                                     <circle class="gauge-base" r="53" cx="60" cy="60"/>
-                                    <circle class="gauge-arc" transform="rotate(-90 60 60)" r="53" cx="60" cy="60" stroke-dasharray="43.48379052369078 329"/>
-                                    <text x="60" y="50" dominant-baseline="central">106</text>
+                                    <circle class="gauge-arc" transform="rotate(-90 60 60)" r="53" cx="60" cy="60" stroke-dasharray="44.30423940149626 329"/>
+                                    <text x="60" y="50" dominant-baseline="central">108</text>
                                     <text x="60" y="80" dominant-baseline="central" class="secondary">/802</text>
                                 </svg>
                                 <span class="title">Easy</span>
